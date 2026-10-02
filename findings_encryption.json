@@ -1,0 +1,23 @@
+[
+  {
+    "control": "encryption_by_default",
+    "severity": "high",
+    "owner": "security_engineering",
+    "resource": "legacy-ftp.example.com",
+    "finding": "Weak TLS version negotiated: TLSv1. Require TLS 1.2 or higher."
+  },
+  {
+    "control": "encryption_by_default",
+    "severity": "medium",
+    "owner": "security_engineering",
+    "resource": "legacy-ftp.example.com",
+    "finding": "Missing Strict-Transport-Security header."
+  },
+  {
+    "control": "encryption_by_default",
+    "severity": "medium",
+    "owner": "security_engineering",
+    "resource": "partner-api.example.com",
+    "finding": "Certificate expires in 9 days (threshold 30)."
+  }
+]

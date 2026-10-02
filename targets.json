@@ -1,0 +1,1 @@
+{"_comment":"Live scan targets. Replace with the vendor domains you assess, then run check.py without --sample. Sample mode (default in CI) ignores this file.","targets":[{"host":"example.com"},{"host":"okta.com"}]}

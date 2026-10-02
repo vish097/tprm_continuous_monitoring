@@ -1,0 +1,18 @@
+[
+  {
+    "control": "sso_by_default",
+    "severity": "high",
+    "owner": "identity_engineering",
+    "resource": "Legacy VPN Portal (0oa1sample0003)",
+    "finding": "App uses sign-on mode SWA instead of federated SSO. Migrate to SAML 2.0 or OIDC.",
+    "sign_on_mode": "SWA"
+  },
+  {
+    "control": "sso_by_default",
+    "severity": "high",
+    "owner": "identity_engineering",
+    "resource": "Old Wiki (0oa1sample0004)",
+    "finding": "App uses sign-on mode BOOKMARK instead of federated SSO. Migrate to SAML 2.0 or OIDC.",
+    "sign_on_mode": "BOOKMARK"
+  }
+]

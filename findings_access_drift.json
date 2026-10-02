@@ -1,0 +1,26 @@
+[
+  {
+    "control": "user_access_drift",
+    "severity": "medium",
+    "owner": "identity_engineering",
+    "resource": "marcus.chen@example.com",
+    "finding": "Dormant account: no login in over 90 days.",
+    "detected_at": "2026-10-02T03:16:05.329425+00:00"
+  },
+  {
+    "control": "user_access_drift",
+    "severity": "high",
+    "owner": "identity_engineering",
+    "resource": "marcus.chen@example.com",
+    "finding": "Privilege creep: IdP role 'admin' is admin-level but HR roster role is 'engineer'. Verify against an approved access request.",
+    "detected_at": "2026-10-02T03:16:05.329425+00:00"
+  },
+  {
+    "control": "user_access_drift",
+    "severity": "high",
+    "owner": "identity_engineering",
+    "resource": "former.contractor@example.com",
+    "finding": "Orphaned account: present in identity provider but not on HR roster.",
+    "detected_at": "2026-10-02T03:16:05.329425+00:00"
+  }
+]
